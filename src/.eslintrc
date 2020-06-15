@@ -5,6 +5,12 @@
     "browser": true,
     "node": true
   },
-  "rules": {},
+  "rules": {
+    "semi": "off",
+    "eol-last": "off",
+    "linebreak-style": ["error", "windows"],
+    "quotes": "double",
+    "require-jsdoc": "off"
+  },
   "extends": ["eslint:recommended", "google"]
 }

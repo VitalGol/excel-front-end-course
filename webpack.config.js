@@ -13,8 +13,8 @@ const jsLoaders = () => {
   const loaders = [
     { loader: "babel-loader", options: { presets: ["@babel/preset-env"] } },
   ];
-  if (isDew) {
-    loaders.push("tslint-loader");
+  if (isDev) {
+    loaders.push("eslint-loader");
   }
   return loaders;
 };
